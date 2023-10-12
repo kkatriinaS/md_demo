@@ -25,6 +25,7 @@ public class AcademicStaffController {
 	@GetMapping("/academicStaff/create")
 	public String createAcademicStaffGetFunc(AcademicStaff academicStaff, Model model) {
 		model.addAttribute("allUsers", userServices.retrieveAllUsers());
+		System.out.println(userServices.retrieveAllUsers());
 		return "academicStaff-create-page";
 	}
 

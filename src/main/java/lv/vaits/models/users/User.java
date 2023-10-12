@@ -47,7 +47,6 @@ public class User {
 	//TODO uztaisīt one to one saiti 
 	@OneToOne(mappedBy = "user")
 	private Person person;
-
 	
 	
 

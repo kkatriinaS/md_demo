@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Send Message</title>
+</head>
+
+<body>
+	<h1>Send a Message</h1>
+	<form action="/send" method="post">
+		To: <input type="text" th:field="*{name}" /><br>
+		<input type="text" th:field="*{surname}" /><br>
+
+		Message: <textarea name="message"></textarea><br>
+		<input type="submit" value="Send">
+	</form>
+</body>
+
+</html>
