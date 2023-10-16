@@ -25,7 +25,7 @@ public class Notification {
     private Long idn;
 
     @Column(name = "Notification_text")
-    private String notification;
+    private String notificationText;
 
     @Column(name = "Kafka_topic")
     private String topic; 

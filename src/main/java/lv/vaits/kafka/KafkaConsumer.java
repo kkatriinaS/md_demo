@@ -22,8 +22,8 @@ public class KafkaConsumer {
 
         
         Notification model = new Notification();
-        model.setNotification(notification);
-        model.setNotification("test"); 
+        model.setNotificationText(notification);
+        model.setTopic("test"); 
         
 
         notificationRepo.save(model);
